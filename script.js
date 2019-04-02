@@ -1,6 +1,6 @@
 let h1 = document.getElementById('h1');
 let h2 = document.getElementById('h2');
-let interval1 = 400;
+let interval1 = 300;
 let string1 = [
   'W',
   'We',
@@ -22,6 +22,15 @@ let string1 = [
   'Web Develop',
   'Web Develope',
   'Web Developer',
+  'Web Developer',
+  'Web Developer',
+  'Web Developer',
+  'Web Developer',
+  'Web Developer',
+  'Web Developer',
+  'Web Developer',
+  'Web Developer',
+  'Web Developer',
    
 ];
 
@@ -42,6 +51,15 @@ let string2 = [
   'Zakh rov Vi ch slav',
   'Zakharov Vi ch slav',
   'Zakharov Vi cheslav',
+  'Zakharov Viacheslav',
+  'Zakharov Viacheslav',
+  'Zakharov Viacheslav',
+  'Zakharov Viacheslav',
+  'Zakharov Viacheslav',
+  'Zakharov Viacheslav',
+  'Zakharov Viacheslav',
+  'Zakharov Viacheslav',
+  'Zakharov Viacheslav',
   'Zakharov Viacheslav',
   
 ]
