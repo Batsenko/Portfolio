@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    /* background-image: url('img/fon2.jpg');
+    background-size: cover; */
+    
+   height: 100vh ;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid rgb(24, 4, 114);
+    background-size: cover;
+}
+ul {
+    opacity: 0.9;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 60px;
+    /* background: rgb(20, 20, 20); */
+    background-image: url('img/cropped-shesterni.jpg')
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    /* border: 1px solid rgb(109, 99, 248); */
+    background: rgb(114, 114, 114);
+    box-shadow: 0px 0px 5px 5px rgb(138, 138, 138); 
+   
+}
+a {
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    transition: all 0.3s ease-in-out;
+    color: rgb(22, 22, 22);
+}
+.project_img {
+    filter: grayscale(100%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgb(138, 138, 138); 
+    width: 200px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+}
+.project_img:hover {
+    
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(0%);
+    transform: scale(1.1, 1.1)
+}
+.project {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url('img/fon2c.jpg');
+   background-size: cover;
+   height: 500px;
+}
+.headline {
+    display: flex;
+    padding: 30px;
+    border-bottom: 3px solid rgb(24, 4, 114);
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+   
+}
+.contact {
+    
+    height: 200px;
+}
+.headline_img {
+    width: 50px;
+    height: 50px;
+}
+.name {
+    border-right: 3px solid rgb(24, 4, 114);
+    padding-right: 30px;
+}
