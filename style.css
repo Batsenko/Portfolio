@@ -205,3 +205,6 @@ a:hover {
     background: rgb(250, 249, 249);
     opacity: 0.8;
 }
+p {
+    text-indent: 20px; 
+}
